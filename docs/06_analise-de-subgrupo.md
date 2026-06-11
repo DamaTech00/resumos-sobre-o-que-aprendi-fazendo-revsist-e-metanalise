@@ -68,4 +68,24 @@ Separar estudos por uma característica e ver se o efeito muda · vale o **teste
 
 ---
 
-> 📝 **Nota da Fe — a desenvolver:** tenho uma questão que percebi nesta meta-análise envolvendo as **vias de administração** e o **pico sérico** — desenvolver aqui depois. *(placeholder; conteúdo a escrever)*
+## 📝 Quando o subgrupo aponta um mecanismo: o caso da via e do pico sérico
+
+Um exemplo de como um achado de subgrupo **gera hipótese mecanística** (sem provar).
+
+Na minha meta-análise, o sinal de mortalidade CV **não** estava no estrogênio "como classe" — estava concentrado numa combinação específica: **PEP intramuscular + doença M0** (FinnProstate). O transdérmico (PATCH) não mostrou excesso. Ou seja, o subgrupo **via × estágio** apontou *onde* o risco mora.
+
+A hipótese que isso levanta: o que importa não é "estrogênio sim/não", é o **perfil farmacocinético** — o **pico sérico**.
+- Estrogênio **oral** → primeira passagem hepática → ↑ fatores de coagulação, ↑ SHBG, ↑ triglicérides → mais trombose. *(Por isso o DES foi abandonado no câncer de próstata.)*
+- **PEP intramuscular** em dose alta → **picos séricos suprafisiológicos** → efeito parecido (mesmo sem a primeira passagem), modulando a coagulação.
+- **Transdérmico** → níveis estáveis e fisiológicos → evita o pico → perfil mais seguro.
+
+**A analogia que fecha o raciocínio (campo da menopausa):**
+- Na terapia hormonal da menopausa, o risco de TEV é **maior com estrogênio oral e menor com transdérmico** — mesma lógica de via (Canonico, meta-análise *BMJ* 2008).
+- E olha que elegante: hormônio **manipulado em implante** gera **picos de estradiol muito acima do fisiológico** (237 vs 93 pg/mL) e **mais eventos adversos** — é o "pico sérico" causando dano, exatamente o que eu suspeito do PEP IM.
+
+**Os freios (pra não exagerar):**
+- É **hipótese**, não prova: o sinal vem de **um** ensaio antigo (FinnProstate, alto risco de viés), e a turma do PEP tinha **mais doença CV de base** → pode ser **confusão por risco basal**, não a via.
+- Subgrupo é **observacional entre estudos** → gera hipótese, não causa.
+- Confirmar de verdade exigiria comparação **direta** transdérmico × IM — que não existe.
+
+**A lição metodológica:** um subgrupo bem pensado não só "acha diferença" — ele aponta um **mecanismo testável** (aqui, pico sérico/via) e organiza a Discussion em torno dele. Mas a força da afirmação tem que respeitar a fragilidade do desenho (1 ensaio, confundimento, sem comparação direta).
