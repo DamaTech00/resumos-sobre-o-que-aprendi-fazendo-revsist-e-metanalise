@@ -14,6 +14,10 @@ Então você **separa** os bolos em dois grupos — feitos em forno a gás × el
 
 No tE2 foi exatamente isso: separar por **estágio** (M0 vs M1) e por **via** (transdérmico vs intramuscular). O "bolo que murcha" foi a mortalidade CV — que só aparecia no PEP **intramuscular** em doença **M0** (FinnProstate). A via/estágio era o "forno".
 
+> 💡 **Exemplo da vida real (o pudim da sogra):** o pudim da minha sogra só ficava com a textura certa **num micro-ondas específico** — um que tinha quase a minha idade. Ninguém sacava: parecia a mesma receita, o mesmo modo de fazer. A variável escondida era **aquele aparelho** (provavelmente a potência baixa de um micro-ondas velho). É isso que a análise de subgrupo faz por nós: às vezes existe uma variável mexendo no resultado **que a gente nem percebe que está ali** — e separar os casos por ela nos faz finalmente **enxergar** o que estava invisível.
+>
+> *Detalhe honesto:* o subgrupo só revela o que você **anotou**. Se ninguém registra "qual micro-ondas", a variável continua invisível (isso é a *confusão residual* — variável escondida que você não mediu). Por isso vale anotar as características que você **suspeita** que importam, mesmo as estranhas — você não consegue fatiar por algo que não está na planilha.
+
 ---
 
 ## A pergunta que importa: a diferença é real ou acaso?
