@@ -75,6 +75,27 @@ Zotero  →  Rayyan  →  Obsidian  →  R / RStudio
 
 > Triagem foi **100% manual** (sem IA). Se usar IA em qualquer etapa, **declare** no manuscrito.
 
+### Triagem assistida por IA — ASReview (alternativa que NÃO usei aqui)
+
+No tE2 a triagem foi manual no Rayyan. Mas vale conhecer o **[ASReview LAB](https://asreview.ai)** — ferramenta open-source (Python, da Universidade de Utrecht) pra **acelerar a triagem** de título/resumo por *active learning*. Como funciona:
+
+1. Você exporta os registros (RIS/CSV — ex.: do Zotero) e abre no ASReview.
+2. Rotula alguns como **relevante / irrelevante**.
+3. Um modelo de ML (ex.: Naive Bayes/SVM + TF-IDF) aprende com seus rótulos e **reordena** a fila, jogando os mais prováveis-relevantes pra frente.
+4. Você continua rotulando os do topo; conforme só aparece irrelevante, você **para** — sem precisar ler os milhares restantes um a um.
+
+**O que ele é e o que não é:**
+- ✅ **prioriza** a ordem da triagem (você lê os prováveis-relevantes primeiro) → economiza muito tempo em buscas grandes (milhares de hits).
+- ❌ **não decide sozinho** — o humano rotula; é *human-in-the-loop*. Não dispensa o julgamento nem (necessariamente) a dupla triagem.
+- ⚠️ **declare** se usar: é triagem **assistida por IA**, e isso entra nos Methods / Use of AI. O ASReview gera um log do processo pra transparência.
+
+```bash
+pip install asreview        # requer Python
+asreview lab                # abre a interface web; importe seu RIS/CSV
+```
+
+> Para uma revisão com **poucos registros** (como o tE2, ~430 → 342 triados), o Rayyan manual dá conta tranquilo. O ASReview brilha quando a busca traz **milhares** de registros e ler tudo manualmente seria inviável.
+
 ---
 
 ## 5. Detalhes que salvam (efeito-modificador, post-hoc)

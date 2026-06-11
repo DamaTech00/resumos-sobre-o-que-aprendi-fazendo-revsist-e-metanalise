@@ -65,3 +65,7 @@ No tE2 isso foi explícito: a turma do PEP tinha **mais doença cardiovascular d
 
 ### TL;DR
 Separar estudos por uma característica e ver se o efeito muda · vale o **teste de interação**, não os números soltos · **pré-especifique** · cuidado com **confusão entre estudos** (falácia ecológica) · subgrupo **levanta hipótese**, raramente prova.
+
+---
+
+> 📝 **Nota da Fe — a desenvolver:** tenho uma questão que percebi nesta meta-análise envolvendo as **vias de administração** e o **pico sérico** — desenvolver aqui depois. *(placeholder; conteúdo a escrever)*
